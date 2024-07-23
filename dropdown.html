@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDown</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+<body>
+    <div class="container">
+        <div class="dropdown">
+            <button data-bs-toggle="dropdown" class="btn btn-primary dropdown-toggle">
+                cadastrar
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li class="dropdown-iten">
+                    <a href="#">Novo Usuario</a>
+                </li>
+                <li class="dropdown-iten">
+                    <a href="#">Novo Fornecedor</a>
+                </li>
+                <li class="dropdown-iten">
+                    <a href="#">Novo Funcionario</a>
+                </li>
+            </ul>
+        </div>
+        <div class="btn-group">
+            <button class="btn btn-primary">
+                cadastrar
+            </button>
+            <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li class="dropdown-iten">
+                    <a href="#">Novo Usuario</a>
+                </li>
+                <li class="dropdown-iten">
+                    <a href="#">Novo Fornecedor</a>
+                </li>
+                <li class="dropdown-iten">
+                    <a href="#">Novo Funcionario</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
